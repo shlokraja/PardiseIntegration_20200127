@@ -1,0 +1,205 @@
+{{#yield-body}}
+<div class="container">
+    <div class="row">
+        <aside  class="large-3 columns">
+            <h5 id="report_label">OrderDetail Report</h5>
+        </aside>
+        <div id="po_editor_div" class="large-3 columns" role="content">
+            From Date
+            <input id="fromdate" type="text" class="datetimepicker" />
+
+        </div>
+        <div id="po_editor_div" class="large-3 columns" role="content">
+            To Date
+            <input id="todate" type="text" class="datetimepicker" />
+
+        </div>
+
+        <div id="outlet_div" class="large-3 columns" role="content">
+           
+        </div>
+
+        <div class="large-3 columns"></div>
+        <div class="large-3 columns">
+            Report Type
+            <select class="form-control" id="select_report_type">
+                <option>OrderDetail</option>
+                <option>VendorWise</option>
+                <option>ItemWise</option>
+
+            </select>
+        </div>
+        <div id="status_div" class="large-3 columns">   
+            Status
+            <select class="form-control" id="select_status">
+                <option>Pending</option>
+                <option>Delivered</option>
+                <option>All</option>
+            </select>
+        </div>
+        <div id="submit_div" class="large-3 columns">
+            <button id="get_reports" class="button small success btn-customised">Submit</button>
+        </div>
+
+        <div class="large-12 col submit_div">
+            <div id="output_div" class="panel" style="overflow:auto">
+                <table id="report_output">
+                    <thead id="reporter_header">
+                        
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{{/yield-body}}
+
+{{#yield-styles}}
+.remove_item {
+height: 20px;
+cursor: pointer;
+}
+
+.label_marker {
+display: inline-block;
+font-weight: bold;
+}
+#submit_div {
+margin-top: 20px;
+}
+
+#err_msg {
+color: red;
+}
+
+.qty {
+width:60px !important;
+}
+
+{{/yield-styles}}
+
+{{#yield-scripts}}
+
+$("#po_editor_div .datetimepicker").datetimepicker({
+timepicker:false,
+format:'Y-m-d',
+});
+
+$("#select_report_type").change(function() {
+  var report_type_data = $("#select_report_type").val();
+
+  document.getElementById("report_label").innerHTML=report_type_data +" Report";
+  
+  if(report_type_data == 'OrderDetail'){
+      document.getElementById("status_div").hidden = false;
+  }else {
+      document.getElementById("status_div").hidden = true;
+  }
+
+});
+
+
+document.getElementById("reporter_header").hidden = true;
+
+
+$("#get_reports").click(function() {
+var from_date = $("#po_editor_div #fromdate").val();
+var to_date = $("#po_editor_div #todate").val();
+var outlet_id = $("#outlet_id option:selected").val();
+var report_type = $("#select_report_type").val();
+var status = $("#select_status").val();
+
+$.get('/paradise_detailed_report/get_orderdetailed_report/'+from_date+'/'+to_date+ '/'+report_type+'/'+status)
+.done(function(data) {
+    debugger;
+document.getElementById("reporter_header").hidden = false;
+// Clearing off previous values
+$("#report_output tbody").empty();
+// Add the rows in the table
+if(data[0].date == ''){
+$("#report_output tbody").empty();
+} else {
+
+var total_received = "";
+var total_dispensed = "";
+var total_pending = "";
+debugger;
+if(report_type == 'VendorWise'){
+
+    var thead = document.getElementById("reporter_header");
+    
+    $("#report_output #reporter_header").empty();
+    var vendorwiseHeader = ["VendorName","Date","Quantity","TotalPrice"];
+
+    for(var i=0;i < vendorwiseHeader.length;i++){ 
+        thead.appendChild(document.createElement("th")).
+        appendChild(document.createTextNode(vendorwiseHeader[i]));  
+    } 
+
+    for (var i=0; i < data.length; i++) {
+
+    var itemtemp=data[i]; 
+
+    var itemRow="<tr><td>" + itemtemp.vendorname + " </td><td>" + itemtemp.date + "</td><td>" + itemtemp.quantity
+    + "</td><td>" + (itemtemp.amount).toFixed(2) + "</td></tr>";
+
+    var tableRef = document.getElementById('report_output').getElementsByTagName('tbody')[0];
+    var newRow = tableRef.insertRow(tableRef.rows.length);
+    newRow.innerHTML = itemRow;
+    }
+
+
+}
+
+else if(report_type=='ItemWise' ){ 
+    var thead = document.getElementById("reporter_header");
+    
+    $("#report_output #reporter_header").empty();
+    var itemwiseHeader = ["ItemName","Date","Quantity","Price"];
+    for(var i=0;i < itemwiseHeader.length;i++){ 
+        thead.appendChild(document.createElement("th")).
+        appendChild(document.createTextNode(itemwiseHeader[i]));  
+    } 
+
+        for (var i=0; i < data.length; i++) {
+
+            var itemtemp=data[i]; 
+
+    var itemRow="<tr><td>" + itemtemp.itemname + " </td><td>" + itemtemp.date + "</td><td>" + itemtemp.quantity
+    + "</td><td>" + (itemtemp.amount).toFixed(2) + "</td></tr>";
+
+    var tableRef = document.getElementById('report_output').getElementsByTagName('tbody')[0];
+    var newRow = tableRef.insertRow(tableRef.rows.length);
+    newRow.innerHTML = itemRow;
+    }
+
+    }else {
+        var thead = document.getElementById("reporter_header");
+        $("#report_output #reporter_header").empty();
+    var orderDetialHeader = ["Date","LimeTrayOrderNumber","Item Description","Unit Price","Quantity","Total","Status",
+    "Delivered Time"];
+
+    for(var i=0;i < orderDetialHeader.length;i++){ 
+        thead.appendChild(document.createElement("th")).
+        appendChild(document.createTextNode(orderDetialHeader[i]));  
+    } 
+    for (var i=0; i < data.length; i++) {
+
+            var itemtemp=data[i]; total_received=total_received + itemtemp.order_received;
+    total_dispensed=total_dispensed + itemtemp.order_received; total_pending=total_pending + itemtemp.order_received;
+    var itemRow="<tr><td>" + itemtemp.date + " </td><td>" + itemtemp.limetrayordernumber + "</td><td>" + itemtemp.itemname
+    + "</td><td>" + itemtemp.unitprice + "</td><td>" + itemtemp.quantity +"</td> <td>" + (itemtemp.total).toFixed(2) +"</td><td>"
+        + itemtemp.status + "</td>"+"<td>"+itemtemp.deliveredtime+ "</td>"+"</tr>";
+
+    var tableRef = document.getElementById('report_output').getElementsByTagName('tbody')[0];
+    var newRow = tableRef.insertRow(tableRef.rows.length);
+    newRow.innerHTML = itemRow;
+    }
+    }
+}
+    });
+    
+    })
+
+    {{/yield-scripts}}

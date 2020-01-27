@@ -1,0 +1,307 @@
+<html>
+
+<head>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style type="text/css">
+    body {
+      margin-top: 20px;
+    }
+
+    .back {
+      background-color: rgb(150, 149, 149);
+    }
+
+    .vendorlabel {
+
+      margin-top: 6px;
+      text-align: right;
+
+    }
+
+    .ordercontainer {
+      margin-top: 100px;
+    }
+
+    .orderdetailform {
+      margin-left: 100px;
+
+    }
+
+    #snackbar {
+      visibility: hidden;
+      /* Hidden by default. Visible on click */
+      min-width: 250px;
+      /* Set a default minimum width */
+      margin-left: -125px;
+      /* Divide value of min-width by 2 */
+      background-color: #333;
+      /* Black background color */
+      color: #fff;
+      /* White text color */
+      text-align: center;
+      /* Centered text */
+      border-radius: 2px;
+      /* Rounded borders */
+      padding: 16px;
+      /* Padding */
+      position: fixed;
+      /* Sit on top of the screen */
+      z-index: 1;
+      /* Add a z-index if needed */
+      left: 50%;
+      /* Center the snackbar */
+      top: 10px;
+      /* 30px from the bottom */
+    }
+
+    /* Show the snackbar when clicking on a button (class added with JavaScript) */
+    #snackbar.show {
+      visibility: visible;
+      /* Show the snackbar */
+      /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+  However, delay the fade out process for 2.5 seconds */
+      -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    }
+
+    /* Animations to fade the snackbar in and out */
+    @-webkit-keyframes fadein {
+      from {
+        top: 0;
+        opacity: 0;
+      }
+
+      to {
+        top: 10px;
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadein {
+      from {
+        bottom: 0;
+        opacity: 0;
+      }
+
+      to {
+        top: 10px;
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes fadeout {
+      from {
+        top: 10px;
+        opacity: 1;
+      }
+
+      to {
+        top: 0;
+        opacity: 0;
+      }
+    }
+
+    @keyframes fadeout {
+      from {
+        top: 10px;
+        opacity: 1;
+      }
+
+      to {
+        top: 0;
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container bodymargin">
+    <div class="row col-sm-12" style="background-color: #fbb713;color: white;">
+      <h3>Order Confirmation</h3>
+    </div>
+
+    <div class="row" style="margin-top: 10px">
+      <div class="col-4 vendorlabel">
+        <label for="selectvendor">Enter Last 4-digits of Bill Number</label>
+      </div>
+
+      <div class="col -2">
+        <input type="text" class="form-control" id="secretcode" placeholder="Secret Code">
+      </div>
+      <div class="col -2">
+
+
+        <input type="button" class="form-control" style="background-color: #fbb713;color: white;" id="getOrderDetail"
+          value="Apply" onclick="getOrderDetail()" />
+      </div>
+    </div>
+    <div id="orderdetails">
+
+      <div class="row ordercontainer">
+        <div class="col">
+          <label for="selectvendor">Customer Details</label>
+          <div class="orderdetailform">
+            <form>
+              <div>
+                <label for="customername">Name:</label><span id='custname' />
+              </div>
+              <br>
+              <div>
+                <label for="address">Address:</label><span id='custaddress' />
+              </div>
+              <br>
+              <div>
+                <label for="contact">Contact:</label><span id='custcontact' />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col">
+          <label for="selectvendor">Order Details</label>
+          <table id="itemDetailTable" class="table table-hover sales-cash-table">
+            <thead>
+              <th scope="col">S.NO</th>
+              <th scope="col">ItemID</th>
+              <th scope="col">ItemName</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">UnitPrice</th>
+
+            </thead>
+            <tbody id="itemdata">
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col -2">
+
+          <input type="button" class="form-control" style="background-color: #fbb713;color: white;" id="getOrderDetail"
+            value="Confirm" onclick="orderConfirm()" />
+        </div>
+      </div>
+    </div>
+    <div id="snackbar">Some text some message..</div>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script>
+
+    function toast(data) {
+      // Get the snackbar DIV
+      var x = document.getElementById("snackbar");
+
+      // Add the "show" class to DIV
+      x.innerHTML = data;
+      x.className = "show";
+
+      // After 3 seconds, remove the show class from DIV
+      setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+    }
+
+
+    document.getElementById("orderdetails").hidden = true;
+    var orderDetails = {};
+    var order_confirm_url = location.origin + '/ParadiseApp/OrderConfirm'
+    console.log(order_confirm_url);
+
+    function orderConfirm() {
+
+      if (orderDetails) {
+        console.log("orderdetails:", orderDetails);
+        $.ajax({
+          type: 'POST',
+          url: order_confirm_url,
+          data: JSON.stringify(orderDetails),
+          success: function (data) {
+            console.log(data);
+            if (data == 'orderconfirmed') {
+              document.getElementById("orderdetails").hidden = true;
+              alert("Order Confirmed Successfull")
+
+            }
+
+          },
+          error: function (jqxhr, textStatus, error) {
+            var err_msg = textStatus + ", " + jqxhr.responseText;
+            console.log("get Order confirm failed: " + err_msg);
+          },
+          contentType: "application/json",
+          dataType: 'text'
+        });
+
+
+      }
+
+    }
+
+    function getOrderDetail() {
+
+      //var vendorName = $('#selectvendor').find(":selected").text().toLowerCase();
+      var secretCode = $('#secretcode').val();
+      var get_order_detail_url = location.origin + '/ParadiseApp/GetConfirmOrderDetail/' + secretCode;
+      //  alert(get_order_detail_url);
+      if (secretCode) {
+        if (secretCode.length == 4) {
+          $.ajax({
+            type: 'GET',
+            url: get_order_detail_url,
+            success: function (data) {
+
+              if (data) {
+                //orderDetails = data;
+                document.getElementById("orderdetails").hidden = false;
+                var result = JSON.parse(data);
+                orderDetails = result.OrderDetails[0]; //to be send to the pending delivery queue
+                console.log("orderDetails:", orderDetails);
+                var customerDetails = result.OrderDetails[0].CustomerDetails;
+                $('#custname').text(customerDetails.CustomerName);
+                $('#custaddress').text(customerDetails.CustomerAddress);
+                $('#custcontact').text(customerDetails.PhoneNumber);
+
+                var orderItemDetails = result.OrderDetails[0].items;
+
+                $("#itemDetailTable tbody").html('');
+                for (var i = 0; i < orderItemDetails.length; i++) {
+                  var itemtemp = orderItemDetails[i];
+
+                  var itemRow = "<tr><th>" + (i + 1) + "</th><td>" + itemtemp.itemId + " </td><td>" + itemtemp.itemName + "</td><td>" + itemtemp.Quantity + "</td><td>" + itemtemp.UnitPrice + "</td></tr>";
+                  var tableRef = document.getElementById('itemDetailTable').getElementsByTagName('tbody')[0];
+                  var newRow = tableRef.insertRow(tableRef.rows.length);
+                  newRow.innerHTML = itemRow;
+                }
+                console.log(data);
+              } else {
+                document.getElementById("orderdetails").hidden = true;
+                
+                alert("No Order Found!!!")
+              }
+            },
+            error: function (jqxhr, textStatus, error) {
+              var err_msg = textStatus + ", " + jqxhr.responseText;
+              console.log("get Order Detail failed: " + err_msg);
+            },
+            contentType: "application/json",
+            dataType: 'text'
+          });
+        } else {
+
+          toast("Please Enter Valid Secret Code!")
+          
+        }
+      } else {
+        toast("Please Enter Secret Code!")
+        
+      }
+    }
+  </script>
+</body>
+
+</html>

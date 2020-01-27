@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Freshly</string>
+    <string name="SelectRestaurant">Select Restaurant</string>
+    <string name="SelectOutlet">Select Outlet</string>
+    <string name="MsgLoadingRestaurant">Loading Restaurant...</string>
+    <string name="MsgLoadingOutlet">Loading Outlet...</string>
+    <string name="MsgLoadingUploading">Uploading data...</string>
+    <string name="MsgLoadingFoodItem">Loading Food Item...</string>
+    <string name="msg_HQ_Required">Please fill the HQ URL</string>
+    <string name="title_Setting">Settings</string>
+    <string name="HQ_URL">HQ URL</string>
+    <string name="Restaurant">Restaurant</string>
+    <string name="Outlet">Outlet</string>
+    <string name="lbl_Proceed">Proceed</string>
+    <string name="Sync">Sync</string>
+    <string name="Save">Save</string>
+    <string name="SelectFoodItem">Select Food Item</string>
+    <string name="NoRecordFound">No Purchase Order Exists</string>
+    <string name="MapIt">Map it</string>
+    <string name="Scanned">Scanned</string>
+    <string name="Ordered">Ordered</string>
+    <string name="lbl_TypeToSearch">Type here to search</string>
+</resources>

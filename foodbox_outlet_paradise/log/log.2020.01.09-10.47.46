@@ -1,0 +1,852 @@
+html-pdf: Failed to load PhantomJS module. { Error: Cannot find module 'phantomjs-prebuilt'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/foodbox_outlet_paradise/node_modules/html-pdf/lib/pdf.js:7:19)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/foodbox_outlet_paradise/node_modules/html-pdf/lib/index.js:1:73)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32) code: 'MODULE_NOT_FOUND' }
+##############################
+dispense queue node called
+##############################
+storeOutletSessions hit -**************************************35
+storeReconcileRemarks: http://192.168.0.114:8008/outlet/reconcile_remarks/
+storeSessionTimings: http://192.168.0.114:8008/outlet/get_session_timings/
+##############################
+in funciton sendRefundReplaceData
+##############################
+##############################
+staff roaster details called
+##############################
+##############################
+dispense queue node called
+##############################
+##############################
+in funciton sendRefundReplaceData
+##############################
+##############################
+in funciton sendStoredBillToHQ
+##############################
+##############################
+sendingofflinefoodissues
+##############################
+Thu, 09 Jan 2020 05:17:56 GMT outlet_app:server Listening on port 8001
+************************************************
+here 1
+************************************************
+##############################
+search non_food_item_issues { is_set_on_HQ: false }
+##############################
+##############################
+obj { is_set_on_HQ: false }
+##############################
+##############################
+storeFoodItems js error in storing  the da  calledd response { Error: connect ECONNREFUSED 192.168.0.114:8008
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.0.114',
+  port: 8008 }
+##############################
+************************************************
+response undefined
+************************************************
+##############################
+storeFoodItems js error in storing  the da  calledd response { Error: connect ECONNREFUSED 192.168.0.114:8008
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.0.114',
+  port: 8008 }
+##############################
+Thu, 09 Jan 2020 05:17:57 GMT outlet_app:server All data is present. No need to query HQ
+************************************************
+result in store bill to HQ { checkinternet: true,
+  bill_print_info: [],
+  cur_dispense_id: '9',
+  cur_bill_no: '9',
+  current_stock_count: '{"20430":{"item_details":[]},"20431":{"item_details":[{"barcode":"CH035PAS0FRJ0601202016462800067268","count":"1","slot_ids":[6],"timestamp":1578309360,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRJ0601202016461300067268","count":"1","slot_ids":[8],"timestamp":1578309360,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRJ0601202016405300067268","count":"1","slot_ids":[13],"timestamp":1578309000,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false}]},"20432":{"item_details":[{"barcode":"CH035PAS0FRK0601202016471600067268","count":"1","slot_ids":[1],"timestamp":1578309420,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRK0601202016470900067268","count":"1","slot_ids":[2],"timestamp":1578309420,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRK0601202016465400067268","count":"1","slot_ids":[3],"timestamp":1578309360,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRK0601202016455100067268","count":"1","slot_ids":[10],"timestamp":1578309300,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRK0601202016432700067268","count":"1","slot_ids":[11],"timestamp":1578309180,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false}]},"20434":{"item_details":[{"barcode":"CH035PAS0FRM0601202016463900067268","count":"1","slot_ids":[5],"timestamp":1578309360,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRM0601202016413400067268","count":"1","slot_ids":[12],"timestamp":1578309060,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false}]}}' }
+************************************************
+************************************************
+calls []
+************************************************
+##############################
+all function called
+##############################
+************************************************
+from call all funciton
+************************************************
+************************************************
+calls []
+************************************************
+##############################
+all function called
+##############################
+************************************************
+from call all funciton
+************************************************
+mongoDB is connected
+##############################
+error in waterfallhttp://192.168.0.114:8008: Error: connect ECONNREFUSED 192.168.0.114:8008 
+##############################
+##############################
+process.env.HQ_URL + STAFF_ROSTER_URL in get http://192.168.0.114:8008/outlet/staff_roster/35
+##############################
+##############################
+replace_data_to_send 0
+##############################
+##############################
+calls []
+##############################
+##############################
+all function called
+##############################
+##############################
+reply [ [], [] ]
+##############################
+##############################
+replace_data_to_send 0
+##############################
+##############################
+calls []
+##############################
+##############################
+all function called
+##############################
+##############################
+reply [ [], [] ]
+##############################
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+##############################
+in seding details to HQ []
+##############################
+[Thu, 09 Jan 2020 05:17:58 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+##############################
+food_item_issues []
+##############################
+##############################
+in seding details to HQ []
+##############################
+##############################
+in seding details to HQ []
+##############################
+************************************************
+in redis clinet dispense local node 
+************************************************
+##############################
+reply [ 1, 1, 1 ]
+##############################
+Thu, 09 Jan 2020 05:17:59 GMT outlet_app:server Pulling any pending dispenser queue data from HQ
+************************************************
+Pulling any pending dispenser queue data from HQ
+************************************************
+##############################
+in seding details to HQ []
+##############################
+************************************************
+in redis clinet dispense local node 
+************************************************
+##############################
+reply [ 1, 1, 1 ]
+##############################
+Thu, 09 Jan 2020 05:17:59 GMT outlet_app:server Pulling any pending dispenser queue data from HQ
+************************************************
+Pulling any pending dispenser queue data from HQ
+************************************************
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T05:17:45.476Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T05:17:45.484Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 05:18:11 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T05:17:45.490Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Thu, 09 Jan 2020 05:18:18 GMT outlet_app:server http://192.168.0.114:8008: Error: connect ECONNREFUSED 192.168.0.114:8008 
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+GetParadiseOrderItemDetail  Starting::
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T05:18:11.806Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T05:18:11.823Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 05:18:26 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T05:18:11.840Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T05:18:26.796Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T05:18:26.811Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 05:18:41 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T05:18:26.828Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+GetParadiseOrderItemDetail  Starting::
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T05:18:41.794Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T05:18:41.805Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 05:18:57 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T05:18:41.819Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T05:18:56.815Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T05:18:57.616Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 05:19:11 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T05:18:57.945Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+GetParadiseOrderItemDetail  Starting::
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T05:19:11.811Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T05:19:11.832Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 05:19:26 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T05:19:11.852Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T05:19:26.842Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T05:19:26.860Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 05:19:41 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T05:19:26.882Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+GetParadiseOrderItemDetail  Starting::
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T05:19:41.834Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+[Thu, 09 Jan 2020 05:19:57 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T05:19:41.848Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T05:19:41.865Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+erro from getting data of staff roster in HQError: connect ECONNREFUSED 192.168.0.114:8008
+Thu, 09 Jan 2020 05:19:59 GMT outlet_app:server SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/misc/getStaffroasterdetails.js:181:37)
+    at Request._callback (/opt/foodbox_outlet_paradise/node_modules/requestretry/node_modules/lodash/lodash.js:10052:25)
+    at Request.requestRetryReply [as reply] (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:105:19)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:138:10)
+    at self.callback (/opt/foodbox_outlet_paradise/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/opt/foodbox_outlet_paradise/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at Socket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Process Error : ${err} SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/misc/getStaffroasterdetails.js:181:37)
+    at Request._callback (/opt/foodbox_outlet_paradise/node_modules/requestretry/node_modules/lodash/lodash.js:10052:25)
+    at Request.requestRetryReply [as reply] (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:105:19)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:138:10)
+    at self.callback (/opt/foodbox_outlet_paradise/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/opt/foodbox_outlet_paradise/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at Socket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)

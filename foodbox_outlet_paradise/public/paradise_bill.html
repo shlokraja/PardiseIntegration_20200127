@@ -1,0 +1,310 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=400, initial-scale=1.0" />
+  <title>Bill</title>
+  <style type="text/css">
+    body {
+      width: 200px;
+      font-family: Calibri;
+    }
+
+    .common {
+      overflow: auto;
+      margin-top: 1px;
+    }
+
+    .margin_space {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    /*General purpose styling classes */
+    .center {
+      text-align: center;
+    }
+
+    .inline {
+      display: inline-block;
+    }
+
+    .side_order {
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    .line {
+      height: 10px;
+      border-bottom: 1px solid black;
+
+    }
+
+    /*Div specific styling classes */
+    #rest_name {
+      font-size: 10px;
+      font-weight: bold;
+    }
+
+    #rest_identity {
+      font-size: 10px;
+      font-weight: bold;
+    }
+
+    #rest_address {
+      font-size: 7px;
+    }
+
+    #established {
+      overflow: auto;
+    }
+
+
+    #date {
+      overflow: auto;
+
+    }
+
+    #date_time,
+    #cust_no,
+    #establish,
+    #limetray_no,
+    #cust_name,
+    #place,
+    #address1,
+    #gstin_no,
+    #cust_order_no,
+    #invoice_no,
+    #customer_detail {
+      float: left;
+      font-size: 8px;
+    }
+
+
+    #telephone {
+      overflow: auto;
+    }
+
+    #invoice {
+      overflow: auto;
+      margin-top: 5px;
+    }
+
+
+
+    #customer_address {
+      overflow: auto;
+    }
+
+
+    #time {
+      float: right;
+      font-size: 9px;
+    }
+
+    #order_no {
+      font-weight: bold;
+      font-size: 10px;
+      border: 2px solid;
+      width: 200px;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+
+    #items {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    #items thead {
+      border-top: 1px solid;
+      border-bottom: 1px solid;
+      font-weight: bold;
+      font-size: 8px;
+    }
+
+    #items tbody,
+    #tin_no,
+    #st_no {
+      font-size: 8px;
+    }
+
+    #items #spacer td {
+      padding-top: 10px;
+    }
+
+    #items #amount_row {
+      border-top: 1px solid;
+
+    }
+
+    #netamount_row,
+    #gstin_code,
+    #sgst_no,
+    #rounded_to,
+    #rounding {
+      border-bottom: 1px solid;
+    }
+
+
+    #items #amount_row #amount_text,
+    #cgst_no,
+    #grand_total,
+    #rounded_to,
+    #sgst_no,
+    #delivery_credit,
+    #rounding,
+    #netamount_row,
+    #sac_code,
+    #gstin_code {
+      text-align: left;
+    }
+
+    #footer {
+      border: 1px dotted;
+      font-size: 8px;
+    }
+
+    #contact_us {
+      margin-top: 10px;
+      overflow: auto;
+    }
+
+    #talk_text {
+      float: left;
+      margin-right: 70px;
+    }
+
+    #icons {
+      float: left;
+    }
+
+    #icons img {
+      height: 20px;
+      width: 20px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+
+
+    #thank_msg {
+      font-weight: bold;
+      font-size: 8px;
+    }
+
+    #thank_you {
+      font-size: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="rest_name" class="center">Paradise Food Court Pvt Ltd.</div>
+  <div id="rest_identity" class="center">OMR Chennai Outlet</div>
+  <div class="common">
+    <div id="establish" class="inline">Established:1953</div>
+  </div>
+  <div class="common">
+    <div id="establish" class="inline">Telephome:044 49588211</div>
+  </div>
+
+
+
+  <div class="line"></div>
+  <div id="invoice">
+    <div id="invoice_no" class="inline">Invoice No: 098909878989</div>
+  </div>
+  <div class="common">
+    <div id="customer_detail" class="inline">Customer Detail:</div>
+  </div>
+  <div class="common">
+    <div id="date_time" class="inline">Date: 05-07-19 14:44</div>
+  </div>
+  <div class="common">
+    <div id="cust_name" class="inline">Name: Swiggy-TN</div>
+  </div>
+  <div class="common">
+    <div id="address1" class="inline">Address: </div>
+  </div>
+  <div class="common">
+    <div id="gstin_no" class="inline">GSTIN: 33AAFCB7707D121</div>
+  </div>
+  <div class="common">
+    <div id="place" class="inline">Place: TN</div>
+  </div>
+  <div class="line"></div>
+  <div class="common">
+    <div id="cust_no" class="inline">TNCUST056 Swiggy-IN</div>
+  </div>
+  <div class="common">
+    <div id="limetray_no" class="inline">Limetray Ref No: LTU758957033</div>
+  </div>
+  <div class="common">
+    <div id="cust_order_no" class="inline">Cust Order No: 4567765</div>
+  </div>
+  <table id="items">
+    <thead>
+
+      <td class="margin_space">Description</td>
+      <td>Quantity</td>
+      <td>Amount</td>
+    </thead>
+    <tbody>
+      <tr id="spacer">
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr id="amount_row">
+        <td colspan="2" id="amount_text" class="margin_space">Total</td>
+        <td id="amount_num">218.52</td>
+      </tr>
+      <tr id="netamount_row">
+        <td colspan="2" id="amount_text" class="margin_space">Net Total</td>
+        <td id="netamount_num">218.52</td>
+      </tr>
+      <tr id="cgst_no">
+        <td colspan="2" id="amount_text" class="margin_space">CGST_2.5%</td>
+        <td id="cgst_num">5.47</td>
+      </tr>
+      <tr id="sgst_no">
+        <td colspan="2" id="amount_text" class="margin_space">SGST_2.5%</td>
+        <td id="sgst_num">5.47</td>
+      </tr>
+      <tr id="grand_total">
+        <td colspan="2" id="amount_text" class="margin_space">Grand Total</td>
+        <td id="grandtotal">229.46</td>
+      </tr>
+      <tr id="rounded_to">
+        <td colspan="2" id="amount_text" class="margin_space">Rounded To</td>
+        <td id="roundedto">229.00</td>
+      </tr>
+      <tr id="delivery_credit">
+        <td colspan="2" id="amount_text" class="margin_space">Delivery Credit</td>
+        <td id="deliverycredit">-229.00</td>
+      </tr>
+      <tr id="rounding">
+        <td colspan="2" id="amount_text" class="margin_space">Roundeding</td>
+        <td id="rounding_num">-0.46</td>
+      </tr>
+      <tr id="sac_code">
+        <td colspan="2" id="amount_text" class="margin_space">SAC Code-996331</td>
+      </tr>
+      <tr id="gstin_code">
+        <td colspan="2" id="amount_text" class="margin_space">GSTIN: 33AAFCB7707D121</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <div id="thank_you" class="center"><img src="./img/icons/paradise_digital_sign.png" alt="digital sign" /></div>
+  <div id="thank_you" style="margin-top: 5px" class="center">Digital Signature</div>
+  <div id="thank_you" class="center">Thank you, Visit Again</div>
+  <div id="thank_you" class="center">Customer Care : 040-67408400</div>
+
+  <div id="thank_msg" class="center">"Paradise is IMAGES most Admired</div>
+  <div id="thank_msg" class="center">Food Service chain of the year</div>
+  <div id="thank_msg" class="center">Casual Dine-in"</div>
+</body>
+
+</html>

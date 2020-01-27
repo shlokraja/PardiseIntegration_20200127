@@ -1,0 +1,470 @@
+##############################
+dispense queue node called
+##############################
+storeOutletSessions hit -**************************************35
+storeReconcileRemarks: http://192.168.0.114:8008/outlet/reconcile_remarks/
+storeSessionTimings: http://192.168.0.114:8008/outlet/get_session_timings/
+##############################
+in funciton sendRefundReplaceData
+##############################
+##############################
+staff roaster details called
+##############################
+##############################
+dispense queue node called
+##############################
+##############################
+in funciton sendRefundReplaceData
+##############################
+##############################
+in funciton sendStoredBillToHQ
+##############################
+##############################
+sendingofflinefoodissues
+##############################
+Mon, 06 Jan 2020 04:51:14 GMT outlet_app:server Listening on port 8001
+##############################
+search non_food_item_issues { is_set_on_HQ: false }
+##############################
+##############################
+obj { is_set_on_HQ: false }
+##############################
+Mon, 06 Jan 2020 04:51:15 GMT outlet_app:server All data is present. No need to query HQ
+************************************************
+result in store bill to HQ { checkinternet: true,
+  bill_print_info: [],
+  cur_dispense_id: '5',
+  cur_bill_no: '5',
+  current_stock_count: '{"20430":{"item_details":[]}}' }
+************************************************
+************************************************
+calls []
+************************************************
+##############################
+all function called
+##############################
+************************************************
+from call all funciton
+************************************************
+************************************************
+calls []
+************************************************
+##############################
+all function called
+##############################
+************************************************
+from call all funciton
+************************************************
+mongoDB is connected
+************************************************
+here 1
+************************************************
+##############################
+replace_data_to_send 0
+##############################
+##############################
+calls []
+##############################
+##############################
+all function called
+##############################
+##############################
+reply [ [], [] ]
+##############################
+##############################
+replace_data_to_send 0
+##############################
+##############################
+calls []
+##############################
+##############################
+all function called
+##############################
+##############################
+reply [ [], [] ]
+##############################
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+##############################
+in seding details to HQ []
+##############################
+[Mon, 06 Jan 2020 04:51:16 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+##############################
+food_item_issues []
+##############################
+##############################
+in seding details to HQ []
+##############################
+##############################
+in seding details to HQ []
+##############################
+************************************************
+in redis clinet dispense local node 
+************************************************
+##############################
+reply [ 1, 1, 1 ]
+##############################
+Mon, 06 Jan 2020 04:51:16 GMT outlet_app:server Pulling any pending dispenser queue data from HQ
+************************************************
+Pulling any pending dispenser queue data from HQ
+************************************************
+##############################
+in seding details to HQ []
+##############################
+************************************************
+in redis clinet dispense local node 
+************************************************
+##############################
+reply [ 1, 1, 1 ]
+##############################
+Mon, 06 Jan 2020 04:51:16 GMT outlet_app:server Pulling any pending dispenser queue data from HQ
+************************************************
+Pulling any pending dispenser queue data from HQ
+************************************************
+##############################
+storeFoodItems js error in storing  the da  calledd response { Error: connect EHOSTUNREACH 192.168.0.114:8008
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'EHOSTUNREACH',
+  errno: 'EHOSTUNREACH',
+  syscall: 'connect',
+  address: '192.168.0.114',
+  port: 8008 }
+##############################
+************************************************
+response undefined
+************************************************
+##############################
+storeFoodItems js error in storing  the da  calledd response { Error: connect EHOSTUNREACH 192.168.0.114:8008
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'EHOSTUNREACH',
+  errno: 'EHOSTUNREACH',
+  syscall: 'connect',
+  address: '192.168.0.114',
+  port: 8008 }
+##############################
+##############################
+error in waterfallhttp://192.168.0.114:8008: Error: connect EHOSTUNREACH 192.168.0.114:8008 
+##############################
+##############################
+process.env.HQ_URL + STAFF_ROSTER_URL in get http://192.168.0.114:8008/outlet/staff_roster/35
+##############################
+[Mon, 06 Jan 2020 04:51:29 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+[Mon, 06 Jan 2020 04:51:44 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Mon, 06 Jan 2020 04:51:45 GMT outlet_app:server http://192.168.0.114:8008: Error: connect EHOSTUNREACH 192.168.0.114:8008 
+[Mon, 06 Jan 2020 04:51:59 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+[Mon, 06 Jan 2020 04:52:14 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+[Mon, 06 Jan 2020 04:52:29 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+[Mon, 06 Jan 2020 04:52:44 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+[Mon, 06 Jan 2020 04:52:59 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+[Mon, 06 Jan 2020 04:53:15 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+[Mon, 06 Jan 2020 04:53:29 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+[Mon, 06 Jan 2020 04:53:44 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+[Mon, 06 Jan 2020 04:53:59 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+erro from getting data of staff roster in HQError: connect ECONNREFUSED 192.168.0.114:8008
+Mon, 06 Jan 2020 04:54:01 GMT outlet_app:server SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/misc/getStaffroasterdetails.js:181:37)
+    at Request._callback (/opt/foodbox_outlet_paradise/node_modules/requestretry/node_modules/lodash/lodash.js:10052:25)
+    at Request.requestRetryReply [as reply] (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:105:19)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:138:10)
+    at self.callback (/opt/foodbox_outlet_paradise/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/opt/foodbox_outlet_paradise/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at Socket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Process Error : ${err} SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/misc/getStaffroasterdetails.js:181:37)
+    at Request._callback (/opt/foodbox_outlet_paradise/node_modules/requestretry/node_modules/lodash/lodash.js:10052:25)
+    at Request.requestRetryReply [as reply] (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:105:19)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:138:10)
+    at self.callback (/opt/foodbox_outlet_paradise/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/opt/foodbox_outlet_paradise/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at Socket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)

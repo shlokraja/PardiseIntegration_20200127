@@ -1,0 +1,1604 @@
+html-pdf: Failed to load PhantomJS module. { Error: Cannot find module 'phantomjs-prebuilt'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/foodbox_outlet_paradise/node_modules/html-pdf/lib/pdf.js:7:19)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/opt/foodbox_outlet_paradise/node_modules/html-pdf/lib/index.js:1:73)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32) code: 'MODULE_NOT_FOUND' }
+##############################
+dispense queue node called
+##############################
+storeOutletSessions hit -**************************************35
+storeReconcileRemarks: http://192.168.0.114:8008/outlet/reconcile_remarks/
+storeSessionTimings: http://192.168.0.114:8008/outlet/get_session_timings/
+##############################
+in funciton sendRefundReplaceData
+##############################
+##############################
+staff roaster details called
+##############################
+##############################
+dispense queue node called
+##############################
+##############################
+in funciton sendRefundReplaceData
+##############################
+##############################
+in funciton sendStoredBillToHQ
+##############################
+##############################
+sendingofflinefoodissues
+##############################
+Thu, 09 Jan 2020 10:46:01 GMT outlet_app:server Listening on port 8001
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+************************************************
+here 1
+************************************************
+##############################
+search non_food_item_issues { is_set_on_HQ: false }
+##############################
+##############################
+obj { is_set_on_HQ: false }
+##############################
+Thu, 09 Jan 2020 10:46:02 GMT outlet_app:server All data is present. No need to query HQ
+************************************************
+result in store bill to HQ { checkinternet: true,
+  bill_print_info: [],
+  cur_dispense_id: '9',
+  cur_bill_no: '9',
+  current_stock_count: '{"20430":{"item_details":[]},"20431":{"item_details":[{"barcode":"CH035PAS0FRJ0601202016462800067268","count":"1","slot_ids":[6],"timestamp":1578309360,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRJ0601202016461300067268","count":"1","slot_ids":[8],"timestamp":1578309360,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRJ0601202016405300067268","count":"1","slot_ids":[13],"timestamp":1578309000,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false}]},"20432":{"item_details":[{"barcode":"CH035PAS0FRK0601202016471600067268","count":"1","slot_ids":[1],"timestamp":1578309420,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRK0601202016470900067268","count":"1","slot_ids":[2],"timestamp":1578309420,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRK0601202016465400067268","count":"1","slot_ids":[3],"timestamp":1578309360,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRK0601202016455100067268","count":"1","slot_ids":[10],"timestamp":1578309300,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRK0601202016432700067268","count":"1","slot_ids":[11],"timestamp":1578309180,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false}]},"20434":{"item_details":[{"barcode":"CH035PAS0FRM0601202016463900067268","count":"1","slot_ids":[5],"timestamp":1578309360,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false},{"barcode":"CH035PAS0FRM0601202016413400067268","count":"1","slot_ids":[12],"timestamp":1578309060,"expired":true,"spoiled":false,"isExpired_InsertedintoDb":false}]}}' }
+************************************************
+************************************************
+calls []
+************************************************
+##############################
+all function called
+##############################
+************************************************
+from call all funciton
+************************************************
+************************************************
+calls []
+************************************************
+##############################
+all function called
+##############################
+************************************************
+from call all funciton
+************************************************
+mongoDB is connected
+##############################
+replace_data_to_send 0
+##############################
+##############################
+calls []
+##############################
+##############################
+all function called
+##############################
+##############################
+reply [ [], [] ]
+##############################
+##############################
+replace_data_to_send 0
+##############################
+##############################
+calls []
+##############################
+##############################
+all function called
+##############################
+##############################
+reply [ [], [] ]
+##############################
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+##############################
+error in waterfallhttp://192.168.0.114:8008: Error: socket hang up 
+##############################
+##############################
+process.env.HQ_URL + STAFF_ROSTER_URL in get http://192.168.0.114:8008/outlet/staff_roster/35
+##############################
+##############################
+storeFoodItems js error in storing  the da  calledd response null
+##############################
+************************************************
+response IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: BufferList { head: null, tail: null, length: 0 },
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: true,
+     ended: true,
+     endEmitted: true,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: false,
+  domain: null,
+  _events: 
+   { end: [ [Function: responseOnEnd], [Function] ],
+     close: [ [Function], [Function] ],
+     data: [Function],
+     error: [Function] },
+  _eventsCount: 4,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: null,
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: true,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        free: [Function: onFree],
+        close: [Array],
+        agentRemove: [Function: onRemove],
+        drain: [Function: ondrain],
+        error: [Function: socketErrorListener] },
+     _eventsCount: 8,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: true,
+        ended: true,
+        finished: true,
+        destroyed: true,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: true,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: false,
+     allowHalfOpen: false,
+     _bytesDispatched: 87,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: null,
+     _server: null,
+     parser: null,
+     _httpMessage: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Circular],
+        connection: [Circular],
+        _header: 'GET /outlet/outlet_session/35 HTTP/1.1\r\nhost: 192.168.0.114:8008\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/outlet/outlet_session/35',
+        _ended: true,
+        res: [Circular],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     read: [Function],
+     _consuming: true,
+     _idleNext: null,
+     _idlePrev: null,
+     _idleTimeout: -1,
+     [Symbol(asyncId)]: 349,
+     [Symbol(bytesRead)]: 484 },
+  connection: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: null,
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: true,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        free: [Function: onFree],
+        close: [Array],
+        agentRemove: [Function: onRemove],
+        drain: [Function: ondrain],
+        error: [Function: socketErrorListener] },
+     _eventsCount: 8,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: true,
+        ended: true,
+        finished: true,
+        destroyed: true,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: true,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: false,
+     allowHalfOpen: false,
+     _bytesDispatched: 87,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: null,
+     _server: null,
+     parser: null,
+     _httpMessage: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Circular],
+        connection: [Circular],
+        _header: 'GET /outlet/outlet_session/35 HTTP/1.1\r\nhost: 192.168.0.114:8008\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/outlet/outlet_session/35',
+        _ended: true,
+        res: [Circular],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     read: [Function],
+     _consuming: true,
+     _idleNext: null,
+     _idlePrev: null,
+     _idleTimeout: -1,
+     [Symbol(asyncId)]: 349,
+     [Symbol(bytesRead)]: 484 },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { 'x-powered-by': 'Express',
+     'access-control-allow-origin': '*',
+     'content-type': 'text/html; charset=utf-8',
+     'content-length': '88',
+     etag: 'W/"58-e838e08"',
+     'set-cookie': 
+      [ 'connect.sid=s%3ALFRF-iMLzDyGCDF0N0ywbwDx5fjsCbfW.mWYbkvVPB481mNWtQn6advMC80izl00ijTAi0pR%2BiUc; Path=/; Expires=Thu, 09 Jan 2020 11:46:02 GMT; HttpOnly' ],
+     date: 'Thu, 09 Jan 2020 10:46:02 GMT',
+     connection: 'close' },
+  rawHeaders: 
+   [ 'X-Powered-By',
+     'Express',
+     'Access-Control-Allow-Origin',
+     '*',
+     'Content-Type',
+     'text/html; charset=utf-8',
+     'Content-Length',
+     '88',
+     'ETag',
+     'W/"58-e838e08"',
+     'set-cookie',
+     'connect.sid=s%3ALFRF-iMLzDyGCDF0N0ywbwDx5fjsCbfW.mWYbkvVPB481mNWtQn6advMC80izl00ijTAi0pR%2BiUc; Path=/; Expires=Thu, 09 Jan 2020 11:46:02 GMT; HttpOnly',
+     'Date',
+     'Thu, 09 Jan 2020 10:46:02 GMT',
+     'Connection',
+     'close' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '',
+  method: null,
+  statusCode: 500,
+  statusMessage: 'Internal Server Error',
+  client: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: null,
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: true,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        free: [Function: onFree],
+        close: [Array],
+        agentRemove: [Function: onRemove],
+        drain: [Function: ondrain],
+        error: [Function: socketErrorListener] },
+     _eventsCount: 8,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: true,
+        ended: true,
+        finished: true,
+        destroyed: true,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: true,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: false,
+     allowHalfOpen: false,
+     _bytesDispatched: 87,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: null,
+     _server: null,
+     parser: null,
+     _httpMessage: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Circular],
+        connection: [Circular],
+        _header: 'GET /outlet/outlet_session/35 HTTP/1.1\r\nhost: 192.168.0.114:8008\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/outlet/outlet_session/35',
+        _ended: true,
+        res: [Circular],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     read: [Function],
+     _consuming: true,
+     _idleNext: null,
+     _idlePrev: null,
+     _idleTimeout: -1,
+     [Symbol(asyncId)]: 349,
+     [Symbol(bytesRead)]: 484 },
+  _consuming: true,
+  _dumped: false,
+  req: 
+   ClientRequest {
+     domain: null,
+     _events: 
+      { socket: [Function],
+        response: [Function: bound ],
+        error: [Function: bound ],
+        drain: [Function],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 87,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 349,
+        [Symbol(bytesRead)]: 484 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 87,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 349,
+        [Symbol(bytesRead)]: 484 },
+     _header: 'GET /outlet/outlet_session/35 HTTP/1.1\r\nhost: 192.168.0.114:8008\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent: 
+      Agent {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     path: '/outlet/outlet_session/35',
+     _ended: true,
+     res: [Circular],
+     aborted: undefined,
+     timeoutCb: null,
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     [Symbol(outHeadersKey)]: { host: [Array] } },
+  request: 
+   Request {
+     domain: null,
+     _events: 
+      { error: [Function: bound ],
+        complete: [Function: bound ],
+        pipe: [Function],
+        data: [Function],
+        end: [Function] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     uri: 
+      Url {
+        protocol: 'http:',
+        slashes: true,
+        auth: null,
+        host: '192.168.0.114:8008',
+        port: '8008',
+        hostname: '192.168.0.114',
+        hash: null,
+        search: null,
+        query: null,
+        pathname: '/outlet/outlet_session/35',
+        path: '/outlet/outlet_session/35',
+        href: 'http://192.168.0.114:8008/outlet/outlet_session/35' },
+     callback: [Function],
+     readable: true,
+     writable: true,
+     _qs: 
+      Querystring {
+        request: [Circular],
+        lib: [Object],
+        useQuerystring: undefined,
+        parseOptions: {},
+        stringifyOptions: {} },
+     _auth: 
+      Auth {
+        request: [Circular],
+        hasAuth: false,
+        sentAuth: false,
+        bearerToken: null,
+        user: null,
+        pass: null },
+     _oauth: OAuth { request: [Circular], params: null },
+     _multipart: 
+      Multipart {
+        request: [Circular],
+        boundary: '9afe07cf-80f2-42f7-98e9-b4acd585f8a3',
+        chunked: false,
+        body: null },
+     _redirect: 
+      Redirect {
+        request: [Circular],
+        followRedirect: true,
+        followRedirects: true,
+        followAllRedirects: false,
+        followOriginalHttpMethod: false,
+        allowRedirect: [Function],
+        maxRedirects: 10,
+        redirects: [],
+        redirectsFollowed: 0,
+        removeRefererHeader: false },
+     _tunnel: 
+      Tunnel {
+        request: [Circular],
+        proxyHeaderWhiteList: [Array],
+        proxyHeaderExclusiveList: [] },
+     headers: {},
+     setHeader: [Function],
+     hasHeader: [Function],
+     getHeader: [Function],
+     removeHeader: [Function],
+     method: 'GET',
+     localAddress: undefined,
+     pool: { 'http:': [Object] },
+     dests: [],
+     __isRequestRequest: true,
+     _callback: [Function],
+     proxy: null,
+     tunnel: false,
+     setHost: true,
+     originalCookieHeader: undefined,
+     _disableCookies: true,
+     _jar: undefined,
+     port: '8008',
+     host: '192.168.0.114',
+     path: '/outlet/outlet_session/35',
+     httpModule: 
+      { _connectionListener: [Function: connectionListener],
+        METHODS: [Array],
+        STATUS_CODES: [Object],
+        Agent: [Object],
+        ClientRequest: [Object],
+        globalAgent: [Object],
+        IncomingMessage: [Object],
+        OutgoingMessage: [Object],
+        Server: [Object],
+        ServerResponse: [Object],
+        createServer: [Function: createServer],
+        get: [Function: get],
+        request: [Function: request] },
+     agentClass: { [Function: Agent] super_: [Object], defaultMaxSockets: Infinity },
+     agent: 
+      Agent {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     _started: true,
+     href: 'http://192.168.0.114:8008/outlet/outlet_session/35',
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /outlet/outlet_session/35 HTTP/1.1\r\nhost: 192.168.0.114:8008\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/outlet/outlet_session/35',
+        _ended: true,
+        res: [Circular],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     ntick: true,
+     response: [Circular],
+     originalHost: '192.168.0.114:8008',
+     originalHostHeaderName: 'host',
+     responseContent: [Circular],
+     _destdata: true,
+     _ended: true,
+     _callbackCalled: true },
+  toJSON: [Function: responseToJSON],
+  caseless: 
+   Caseless {
+     dict: 
+      { 'x-powered-by': 'Express',
+        'access-control-allow-origin': '*',
+        'content-type': 'text/html; charset=utf-8',
+        'content-length': '88',
+        etag: 'W/"58-e838e08"',
+        'set-cookie': [Array],
+        date: 'Thu, 09 Jan 2020 10:46:02 GMT',
+        connection: 'close' } },
+  read: [Function],
+  body: 'error fetching client from poolerror: password authentication failed for user "atchayam"' }
+************************************************
+##############################
+in seding details to HQ []
+##############################
+[Thu, 09 Jan 2020 10:46:03 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+##############################
+storeFoodItems js error in storing  the da  calledd response null
+##############################
+##############################
+food_item_issues []
+##############################
+##############################
+in seding details to HQ []
+##############################
+##############################
+in seding details to HQ []
+##############################
+************************************************
+in redis clinet dispense local node 
+************************************************
+##############################
+reply [ 1, 1, 1 ]
+##############################
+Thu, 09 Jan 2020 10:46:04 GMT outlet_app:server Pulling any pending dispenser queue data from HQ
+************************************************
+Pulling any pending dispenser queue data from HQ
+************************************************
+##############################
+in seding details to HQ []
+##############################
+************************************************
+in redis clinet dispense local node 
+************************************************
+##############################
+reply [ 1, 1, 1 ]
+##############################
+Thu, 09 Jan 2020 10:46:04 GMT outlet_app:server Pulling any pending dispenser queue data from HQ
+************************************************
+Pulling any pending dispenser queue data from HQ
+************************************************
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T10:45:50.263Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T10:45:50.305Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 10:46:16 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T10:45:50.310Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Thu, 09 Jan 2020 10:46:23 GMT outlet_app:server http://192.168.0.114:8008: Error: connect ECONNREFUSED 192.168.0.114:8008 
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+GetParadiseOrderItemDetail  Starting::
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T10:46:16.731Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T10:46:16.749Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 10:46:31 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T10:46:16.765Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T10:46:31.720Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T10:46:31.734Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 10:46:46 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T10:46:31.750Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+GetParadiseOrderItemDetail  Starting::
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T10:46:46.723Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T10:46:46.736Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 10:47:01 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Inserted into paradise food item list into redis:: OK
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T10:46:46.753Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T10:47:01.739Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T10:47:01.749Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 10:47:16 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T10:47:01.780Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+GetParadiseOrderItemDetail  Starting::
+Inserted into paradise food item list into redis:: OK
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+GetParadiseOrderItemDetail  Starting::
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T10:47:16.740Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T10:47:16.760Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 10:47:31 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T10:47:16.783Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+GetParadiseOrderItemDetail  Starting::
+Inserted into paradise food item list into redis:: OK
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T10:47:31.750Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T10:47:31.765Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 10:47:46 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T10:47:31.784Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+GetParadiseOrderItemDetail  Starting::
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+GetParadiseOrderItemDetail  Starting::
+Processing Order::: {"VendorName":"Uber","VendorOrderNumber":"","Customer_Order_No":"229135","LimeTrayOrderNumber":"89755997","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":0,"status":"K","LastUpadatedDate":"2020-01-09T10:47:46.741Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755997 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 0
+Processing Order::: {"VendorName":"Zomato","VendorOrderNumber":"","Customer_Order_No":"229137","LimeTrayOrderNumber":"89755524","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":199,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T11:44:00.000Z","PaymentMode":"","SecretCode":"","Index":1,"status":"K","LastUpadatedDate":"2020-01-09T10:47:46.754Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755524 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+lockedQty: 0 itemid 20430
+[Thu, 09 Jan 2020 10:48:02 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Completed::: 1
+Processing Order::: {"VendorName":"Swiggy","VendorOrderNumber":"","Customer_Order_No":"229199","LimeTrayOrderNumber":"89755619","ParadiseOrderNumber":"","CustomerDetails":{"CustomerName":"+918095551226","CustomerAddress":"","PhoneNumber":"8095551226"},"items":[{"itemId":20430,"itemName":"Royal","UnitPrice":597,"Quantity":1,"GST":"","locked":true,"lockedQty":0,"previousQuantity":0}],"OrderDateTime":"2020-01-06T13:43:00.000Z","PaymentMode":"","SecretCode":"","Index":2,"status":"K","LastUpadatedDate":"2020-01-09T10:47:46.768Z","isPOGenerated":true}
+Status of  Delivery queue: K
+Inside Checking for Available items: 89755619 itemDetails: [ { itemId: '20430', count: 0 },
+  { itemId: '20431', count: 3 },
+  { itemId: '20432', count: 5 },
+  { itemId: '20434', count: 2 } ]  OrderItemDetails:: [ { itemId: 20430,
+    Quantity: 1,
+    locked: true,
+    lockedQty: 0,
+    previousQuantity: 0 } ]
+lockedQty: 0 itemid 20430
+Completed::: 2
+Response from service received::
+Replay from Paradise_Last_LimeTray_Order_Date::: "2020-01-07T14:13:00.000Z"
+Date:: 2020-01-07T14:13:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+Date:: 2020-01-06T05:14:00.000Z
+erro from getting data of staff roster in HQError: connect ECONNREFUSED 192.168.0.114:8008
+Thu, 09 Jan 2020 10:48:04 GMT outlet_app:server SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/misc/getStaffroasterdetails.js:181:37)
+    at Request._callback (/opt/foodbox_outlet_paradise/node_modules/requestretry/node_modules/lodash/lodash.js:10052:25)
+    at Request.requestRetryReply [as reply] (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:105:19)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:138:10)
+    at self.callback (/opt/foodbox_outlet_paradise/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/opt/foodbox_outlet_paradise/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at Socket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+Process Error : ${err} SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/misc/getStaffroasterdetails.js:181:37)
+    at Request._callback (/opt/foodbox_outlet_paradise/node_modules/requestretry/node_modules/lodash/lodash.js:10052:25)
+    at Request.requestRetryReply [as reply] (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:105:19)
+    at Request.<anonymous> (/opt/foodbox_outlet_paradise/node_modules/requestretry/index.js:138:10)
+    at self.callback (/opt/foodbox_outlet_paradise/node_modules/request/request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (/opt/foodbox_outlet_paradise/node_modules/request/request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at Socket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)

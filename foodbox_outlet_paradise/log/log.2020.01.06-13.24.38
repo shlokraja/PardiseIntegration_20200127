@@ -1,0 +1,1676 @@
+##############################
+dispense queue node called
+##############################
+storeOutletSessions hit -**************************************35
+storeReconcileRemarks: http://192.168.0.114:8008/outlet/reconcile_remarks/
+storeSessionTimings: http://192.168.0.114:8008/outlet/get_session_timings/
+##############################
+in funciton sendRefundReplaceData
+##############################
+##############################
+staff roaster details called
+##############################
+##############################
+dispense queue node called
+##############################
+##############################
+in funciton sendRefundReplaceData
+##############################
+##############################
+in funciton sendStoredBillToHQ
+##############################
+##############################
+sendingofflinefoodissues
+##############################
+Mon, 06 Jan 2020 07:54:48 GMT outlet_app:server Listening on port 8001
+##############################
+search non_food_item_issues { is_set_on_HQ: false }
+##############################
+##############################
+obj { is_set_on_HQ: false }
+##############################
+************************************************
+here 1
+************************************************
+Mon, 06 Jan 2020 07:54:49 GMT outlet_app:server All data is present. No need to query HQ
+************************************************
+result in store bill to HQ { checkinternet: true,
+  bill_print_info: [],
+  cur_dispense_id: '5',
+  cur_bill_no: '5',
+  current_stock_count: '{"20430":{"item_details":[]}}' }
+************************************************
+************************************************
+calls []
+************************************************
+##############################
+all function called
+##############################
+************************************************
+from call all funciton
+************************************************
+************************************************
+calls []
+************************************************
+##############################
+all function called
+##############################
+************************************************
+from call all funciton
+************************************************
+mongoDB is connected
+##############################
+replace_data_to_send 0
+##############################
+##############################
+calls []
+##############################
+##############################
+all function called
+##############################
+##############################
+reply [ [], [] ]
+##############################
+##############################
+replace_data_to_send 0
+##############################
+##############################
+calls []
+##############################
+##############################
+all function called
+##############################
+##############################
+reply [ [], [] ]
+##############################
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+storeReconcileRemarks ***************************: {item_missing,difference_in_item_count,others}
+storeSessionTimings ***************************: "[{\"end_time\":\"14:59:00\"},{\"end_time\":\"18:59:00\"},{\"end_time\":\"23:00:00\"},{\"end_time\":\"08:59:00\"},{\"end_time\":\"12:59:00\"}]"
+************************************************
+response IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: BufferList { head: null, tail: null, length: 0 },
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: true,
+     ended: true,
+     endEmitted: true,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: false,
+  domain: null,
+  _events: 
+   { end: [ [Function: responseOnEnd], [Function] ],
+     close: [ [Function], [Function] ],
+     data: [Function],
+     error: [Function] },
+  _eventsCount: 4,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: null,
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: true,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        free: [Function: onFree],
+        close: [Array],
+        agentRemove: [Function: onRemove],
+        drain: [Function: ondrain],
+        error: [Function: socketErrorListener] },
+     _eventsCount: 8,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: true,
+        ended: true,
+        finished: true,
+        destroyed: true,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: true,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: false,
+     allowHalfOpen: false,
+     _bytesDispatched: 87,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: null,
+     _server: null,
+     parser: null,
+     _httpMessage: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Circular],
+        connection: [Circular],
+        _header: 'GET /outlet/outlet_session/35 HTTP/1.1\r\nhost: 192.168.0.114:8008\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/outlet/outlet_session/35',
+        _ended: true,
+        res: [Circular],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     read: [Function],
+     _consuming: true,
+     _idleNext: null,
+     _idlePrev: null,
+     _idleTimeout: -1,
+     [Symbol(asyncId)]: 332,
+     [Symbol(bytesRead)]: 437 },
+  connection: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: null,
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: true,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        free: [Function: onFree],
+        close: [Array],
+        agentRemove: [Function: onRemove],
+        drain: [Function: ondrain],
+        error: [Function: socketErrorListener] },
+     _eventsCount: 8,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: true,
+        ended: true,
+        finished: true,
+        destroyed: true,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: true,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: false,
+     allowHalfOpen: false,
+     _bytesDispatched: 87,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: null,
+     _server: null,
+     parser: null,
+     _httpMessage: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Circular],
+        connection: [Circular],
+        _header: 'GET /outlet/outlet_session/35 HTTP/1.1\r\nhost: 192.168.0.114:8008\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/outlet/outlet_session/35',
+        _ended: true,
+        res: [Circular],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     read: [Function],
+     _consuming: true,
+     _idleNext: null,
+     _idlePrev: null,
+     _idleTimeout: -1,
+     [Symbol(asyncId)]: 332,
+     [Symbol(bytesRead)]: 437 },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: true,
+  headers: 
+   { 'x-powered-by': 'Express',
+     'access-control-allow-origin': '*',
+     'content-type': 'application/json; charset=utf-8',
+     'content-length': '48',
+     etag: 'W/"30-33ad8345"',
+     'set-cookie': 
+      [ 'connect.sid=s%3A0vy6L_SzqNwobWarqL4Ibd8xSDxMH9iK.l%2FS0fYHq7%2B5GjShXTNfPjSLbFhEZiAJo%2BbNS2mrjtUM; Path=/; Expires=Mon, 06 Jan 2020 08:54:49 GMT; HttpOnly' ],
+     date: 'Mon, 06 Jan 2020 07:54:49 GMT',
+     connection: 'close' },
+  rawHeaders: 
+   [ 'X-Powered-By',
+     'Express',
+     'Access-Control-Allow-Origin',
+     '*',
+     'Content-Type',
+     'application/json; charset=utf-8',
+     'Content-Length',
+     '48',
+     'ETag',
+     'W/"30-33ad8345"',
+     'set-cookie',
+     'connect.sid=s%3A0vy6L_SzqNwobWarqL4Ibd8xSDxMH9iK.l%2FS0fYHq7%2B5GjShXTNfPjSLbFhEZiAJo%2BbNS2mrjtUM; Path=/; Expires=Mon, 06 Jan 2020 08:54:49 GMT; HttpOnly',
+     'Date',
+     'Mon, 06 Jan 2020 07:54:49 GMT',
+     'Connection',
+     'close' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '',
+  method: null,
+  statusCode: 200,
+  statusMessage: 'OK',
+  client: 
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle: null,
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: true,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        free: [Function: onFree],
+        close: [Array],
+        agentRemove: [Function: onRemove],
+        drain: [Function: ondrain],
+        error: [Function: socketErrorListener] },
+     _eventsCount: 8,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: true,
+        ended: true,
+        finished: true,
+        destroyed: true,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: true,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: false,
+     allowHalfOpen: false,
+     _bytesDispatched: 87,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: null,
+     _server: null,
+     parser: null,
+     _httpMessage: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Circular],
+        connection: [Circular],
+        _header: 'GET /outlet/outlet_session/35 HTTP/1.1\r\nhost: 192.168.0.114:8008\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/outlet/outlet_session/35',
+        _ended: true,
+        res: [Circular],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     read: [Function],
+     _consuming: true,
+     _idleNext: null,
+     _idlePrev: null,
+     _idleTimeout: -1,
+     [Symbol(asyncId)]: 332,
+     [Symbol(bytesRead)]: 437 },
+  _consuming: true,
+  _dumped: false,
+  req: 
+   ClientRequest {
+     domain: null,
+     _events: 
+      { socket: [Function],
+        response: [Function: bound ],
+        error: [Function: bound ],
+        drain: [Function],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 87,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 332,
+        [Symbol(bytesRead)]: 437 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 87,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)]: 332,
+        [Symbol(bytesRead)]: 437 },
+     _header: 'GET /outlet/outlet_session/35 HTTP/1.1\r\nhost: 192.168.0.114:8008\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent: 
+      Agent {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     path: '/outlet/outlet_session/35',
+     _ended: true,
+     res: [Circular],
+     aborted: undefined,
+     timeoutCb: null,
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     [Symbol(outHeadersKey)]: { host: [Array] } },
+  request: 
+   Request {
+     domain: null,
+     _events: 
+      { error: [Function: bound ],
+        complete: [Function: bound ],
+        pipe: [Function],
+        data: [Function],
+        end: [Function] },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     uri: 
+      Url {
+        protocol: 'http:',
+        slashes: true,
+        auth: null,
+        host: '192.168.0.114:8008',
+        port: '8008',
+        hostname: '192.168.0.114',
+        hash: null,
+        search: null,
+        query: null,
+        pathname: '/outlet/outlet_session/35',
+        path: '/outlet/outlet_session/35',
+        href: 'http://192.168.0.114:8008/outlet/outlet_session/35' },
+     callback: [Function],
+     readable: true,
+     writable: true,
+     _qs: 
+      Querystring {
+        request: [Circular],
+        lib: [Object],
+        useQuerystring: undefined,
+        parseOptions: {},
+        stringifyOptions: {} },
+     _auth: 
+      Auth {
+        request: [Circular],
+        hasAuth: false,
+        sentAuth: false,
+        bearerToken: null,
+        user: null,
+        pass: null },
+     _oauth: OAuth { request: [Circular], params: null },
+     _multipart: 
+      Multipart {
+        request: [Circular],
+        boundary: 'f3f81a21-c4ae-4937-91f0-d99e8be5b37d',
+        chunked: false,
+        body: null },
+     _redirect: 
+      Redirect {
+        request: [Circular],
+        followRedirect: true,
+        followRedirects: true,
+        followAllRedirects: false,
+        followOriginalHttpMethod: false,
+        allowRedirect: [Function],
+        maxRedirects: 10,
+        redirects: [],
+        redirectsFollowed: 0,
+        removeRefererHeader: false },
+     _tunnel: 
+      Tunnel {
+        request: [Circular],
+        proxyHeaderWhiteList: [Array],
+        proxyHeaderExclusiveList: [] },
+     headers: {},
+     setHeader: [Function],
+     hasHeader: [Function],
+     getHeader: [Function],
+     removeHeader: [Function],
+     method: 'GET',
+     localAddress: undefined,
+     pool: { 'http:': [Object] },
+     dests: [],
+     __isRequestRequest: true,
+     _callback: [Function],
+     proxy: null,
+     tunnel: false,
+     setHost: true,
+     originalCookieHeader: undefined,
+     _disableCookies: true,
+     _jar: undefined,
+     port: '8008',
+     host: '192.168.0.114',
+     path: '/outlet/outlet_session/35',
+     httpModule: 
+      { _connectionListener: [Function: connectionListener],
+        METHODS: [Array],
+        STATUS_CODES: [Object],
+        Agent: [Object],
+        ClientRequest: [Object],
+        globalAgent: [Object],
+        IncomingMessage: [Object],
+        OutgoingMessage: [Object],
+        Server: [Object],
+        ServerResponse: [Object],
+        createServer: [Function: createServer],
+        get: [Function: get],
+        request: [Function: request] },
+     agentClass: { [Function: Agent] super_: [Object], defaultMaxSockets: Infinity },
+     agent: 
+      Agent {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     _started: true,
+     href: 'http://192.168.0.114:8008/outlet/outlet_session/35',
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /outlet/outlet_session/35 HTTP/1.1\r\nhost: 192.168.0.114:8008\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/outlet/outlet_session/35',
+        _ended: true,
+        res: [Circular],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)]: [Object] },
+     ntick: true,
+     response: [Circular],
+     originalHost: '192.168.0.114:8008',
+     originalHostHeaderName: 'host',
+     responseContent: [Circular],
+     _destdata: true,
+     _ended: true,
+     _callbackCalled: true },
+  toJSON: [Function: responseToJSON],
+  caseless: 
+   Caseless {
+     dict: 
+      { 'x-powered-by': 'Express',
+        'access-control-allow-origin': '*',
+        'content-type': 'application/json; charset=utf-8',
+        'content-length': '48',
+        etag: 'W/"30-33ad8345"',
+        'set-cookie': [Array],
+        date: 'Mon, 06 Jan 2020 07:54:49 GMT',
+        connection: 'close' } },
+  read: [Function],
+  body: '{"array_agg":["11:30:00","16:15:00","23:15:00"]}' }
+************************************************
+************************************************
+************************************************
+************************************************
+jsondata []
+************************************************
+Mon, 06 Jan 2020 07:54:50 GMT outlet_app:server Updated HQ with the recovery details
+##############################
+in seding details to HQ []
+##############################
+Mon, 06 Jan 2020 07:54:50 GMT outlet_app:server successfully stored plc config
+Mon, 06 Jan 2020 07:54:50 GMT outlet_app:server successfully stored outlet config
+Mon, 06 Jan 2020 07:54:50 GMT outlet_app:server successfully stored reconcile remarks.
+Mon, 06 Jan 2020 07:54:50 GMT outlet_app:server successfully stored reconcile remarks.
+Mon, 06 Jan 2020 07:54:50 GMT outlet_app:server successfully stored outlet sessions
+[Mon, 06 Jan 2020 07:54:50 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+##############################
+food_item_issues []
+##############################
+##############################
+function  1
+##############################
+##############################
+alldetails []
+##############################
+##############################
+data_to_send == 
+##############################
+##############################
+data_to_send.length; []
+##############################
+HQ_URL /outlet/staff_roster_offline/35
+##############################
+in seding details to HQ []
+##############################
+##############################
+process.env.HQ_URL + STAFF_ROSTER_URL in get http://192.168.0.114:8008/outlet/staff_roster/35
+##############################
+##############################
+##############################
+##############################
+misc/getStaffrosterdetils set a roster detials OK
+##############################
+************************************************
+reply 0
+************************************************
+************************************************
+reply 0
+************************************************
+##############################
+in seding details to HQ []
+##############################
+************************************************
+in redis clinet dispense local node 
+************************************************
+##############################
+reply [ 1, 1, 1 ]
+##############################
+Mon, 06 Jan 2020 07:54:51 GMT outlet_app:server Pulling any pending dispenser queue data from HQ
+************************************************
+Pulling any pending dispenser queue data from HQ
+************************************************
+##############################
+in seding details to HQ []
+##############################
+************************************************
+in redis clinet dispense local node 
+************************************************
+##############################
+reply [ 1, 1, 1 ]
+##############################
+Mon, 06 Jan 2020 07:54:51 GMT outlet_app:server Pulling any pending dispenser queue data from HQ
+************************************************
+Pulling any pending dispenser queue data from HQ
+************************************************
+Mon, 06 Jan 2020 07:54:51 GMT outlet_app:server Got queue details from HQ-  []
+Mon, 06 Jan 2020 07:54:51 GMT outlet_app:server Got queue details from HQ-  []
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+************data received from get_data_matrix (HQ) in staff_roster method(outlet) 
+[Mon, 06 Jan 2020 07:55:03 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+[Mon, 06 Jan 2020 07:55:18 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+[Mon, 06 Jan 2020 07:55:33 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+[Mon, 06 Jan 2020 07:55:49 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+************data received from get_data_matrix (HQ) in staff_roster method(outlet) 
+[Mon, 06 Jan 2020 07:56:03 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+[Mon, 06 Jan 2020 07:56:18 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+[Mon, 06 Jan 2020 07:56:33 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+Inserted into paradise food item list into redis:: OK
+[Mon, 06 Jan 2020 07:56:49 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+************data received from get_data_matrix (HQ) in staff_roster method(outlet) 
+[Mon, 06 Jan 2020 07:57:03 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+[Mon, 06 Jan 2020 07:57:18 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+[Mon, 06 Jan 2020 07:57:33 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+Inserted into paradise food item list into redis:: OK
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+[Mon, 06 Jan 2020 07:57:49 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+************data received from get_data_matrix (HQ) in staff_roster method(outlet) 
+[Mon, 06 Jan 2020 07:58:03 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+[Mon, 06 Jan 2020 07:58:18 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+[Mon, 06 Jan 2020 07:58:33 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+Inserted into paradise food item list into redis:: OK
+[Mon, 06 Jan 2020 07:58:49 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+************data received from get_data_matrix (HQ) in staff_roster method(outlet) 
+[Mon, 06 Jan 2020 07:59:04 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+[Mon, 06 Jan 2020 07:59:19 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+[Mon, 06 Jan 2020 07:59:34 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+InitAutomaticEOD function called
+hq_url: http://192.168.0.114:8008 outlet_id: 35
+AutomaticEOD function called
+outlet_config :: [object Object]
+time_in_mins :809 automatic_eod_time_in_minutes: 1430
+Session Details got from  HQ
+[ '11:30:00', '16:15:00', '23:15:00' ]
+Current date and time :Mon Jan 06 2020 13:29:48 GMT+0530 (IST)
+Current date and Interval :Mon Jan 06 2020 13:19:48 GMT+0530 (IST)
+End time of Sessions:Mon Jan 06 2020 11:30:00 GMT+0530 (IST)
+End time of Sessions:Mon Jan 06 2020 16:15:00 GMT+0530 (IST)
+End time of Sessions:Mon Jan 06 2020 23:15:00 GMT+0530 (IST)
+End time of Sessions:Invalid Date
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+##############################
+dispense queue node called
+##############################
+##############################
+sendingofflinefoodissues
+##############################
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+##############################
+search non_food_item_issues { is_set_on_HQ: false }
+##############################
+##############################
+obj { is_set_on_HQ: false }
+##############################
+##############################
+food_item_issues []
+##############################
+##############################
+in seding details to HQ []
+##############################
+Inserted into paradise food item list into redis:: OK
+[Mon, 06 Jan 2020 07:59:49 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+##############################
+in seding details to HQ []
+##############################
+************************************************
+in redis clinet dispense local node 
+************************************************
+##############################
+reply [ 1, 1, 1 ]
+##############################
+Mon, 06 Jan 2020 07:59:49 GMT outlet_app:server Pulling any pending dispenser queue data from HQ
+************************************************
+Pulling any pending dispenser queue data from HQ
+************************************************
+Mon, 06 Jan 2020 07:59:50 GMT outlet_app:server Got queue details from HQ-  []
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+************data received from get_data_matrix (HQ) in staff_roster method(outlet) 
+[Mon, 06 Jan 2020 08:00:04 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+[Mon, 06 Jan 2020 08:00:19 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK
+[Mon, 06 Jan 2020 08:00:34 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+##############################
+in funciton sendRefundReplaceData
+##############################
+Checking for PO Creation::::CheckParadisePendingItemStatus::
+************************************************
+calls []
+************************************************
+##############################
+all function called
+##############################
+************************************************
+from call all funciton
+************************************************
+##############################
+replace_data_to_send 0
+##############################
+##############################
+calls []
+##############################
+##############################
+all function called
+##############################
+##############################
+reply [ [], [] ]
+##############################
+po_main_data::::: [ { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15978,
+    item_name: 'EGG FRIED RICE WITH GOBI MANCHURAIN ',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00060155',
+    restaurant_name: 'Curry Kitchen',
+    food_item_id: 15948,
+    item_name: 'VEG FRIED RICE WITH GOBI MANCHURIAN ',
+    po_qty: 5,
+    scanned_qty: 5,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: true,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-08-05',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+po_main_data::::: [ { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15977,
+    item_name: 'Idly Sambar ',
+    po_qty: 11,
+    scanned_qty: 11,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15930,
+    item_name: 'Mix Veg Uthappam',
+    po_qty: 7,
+    scanned_qty: 7,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' },
+  { po_id: '00059405',
+    restaurant_name: 'Sangeetha Veg Restaurant',
+    food_item_id: 15926,
+    item_name: 'Chapathi Kurma',
+    po_qty: 6,
+    scanned_qty: 6,
+    unscanned_qty: 0,
+    damaged_qty: 0,
+    expiry_qty: 0,
+    rest_fault_qty: 0,
+    remarks: '',
+    is_reconciled_item: false,
+    processed_by: 'auto',
+    userid: 29,
+    date: '2018-07-14',
+    is_eod_done: 'n',
+    is_set_on_HQ: 'y' } ]
+Inserted into paradise food item list into redis:: OK
+[Mon, 06 Jan 2020 08:00:49 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+************Batch_id received in staff_roster method 35
+GET_DATA_MATRIX_URL: http://192.168.0.114:8008/food_vendor/get_data_matrix/35
+**********Cron Job for Get Matrix Code************
+************data received from get_data_matrix (HQ) in staff_roster method(outlet) 
+[Mon, 06 Jan 2020 08:01:04 GMT] "GET /order_app/getmenuitems HTTP/1.1" 200
+Inserted into paradise food item list into redis:: OK

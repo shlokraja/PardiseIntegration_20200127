@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+  <link href="css/roboto.min.css" rel="stylesheet">
+  <link href="css/material.min.css" rel="stylesheet">
+  <link href="css/material-fullpalette.min.css" rel="stylesheet">
+  <link href="css/ripples.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/offline-language-english.css" rel="stylesheet" />
+  <link href="css/offline-theme-slide.css" rel="stylesheet" />
+  {{!-- <script src="js/jquery.js"></script> --}}
+  <title>Orders </title>
+  <style type="text/css">
+    body {
+      margin: 0px;
+      height: 100%;
+      width: 100%;
+    }
+
+    #imageframe {
+      margin: 0px;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="panel_header">
+    <img class="icon" src="img/icons/Orders.png">
+    <h4>Orders Queue</h4>
+  </div>
+  <div
+    {{!-- style="background-color:orange;width:100%;height:50px;color:white;text-align:center;text-align-vertical:center;font-size:24px">
+    Orders Queue</div> --}}
+  <div class="col-sm-12">
+    <table class="table" border="1">
+      <thead>
+        <th>S.No</th>
+        <th>Order Number</th>
+        <th>Vendor</th>
+        <th>OnLine Order DateTime</th>
+        <th>Items</th>
+      </thead>
+
+      <tbody id="tblOrders">
+        {{#orders}}
+        <tr>
+          <td> {{sno}}</td>
+          <td>{{OrderNumber}}</td>
+          <td>{{vendor}}</td>
+          <td>{{OrderDate}}</td>
+          <td>
+            <table class='col-sm-12' border="1">
+              <thead style="font-size: smaller">
+                <th>S.No</th>
+                <th>Item</th>
+                <th> Quantity</th>
+              </thead>
+              <tbody>
+                {{#items}}
+                <tr style="font-size: smaller">
+                  <td>{{sno}} </td>
+                  <td>{{itemName}}</td>
+                  <td style="text-align: right">{{Quantity}}</td>
+                  {{/items}}
+                </tr>
+              </tbody>
+          </td>
+    </table>
+    </td>
+
+    </tr>
+    {{/orders}}
+
+
+    </tbody>
+    </table>
+  </div>
+</body>
+
+
+
+
+</html>

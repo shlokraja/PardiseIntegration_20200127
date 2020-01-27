@@ -1,0 +1,10 @@
+
+create table  po_preprinted_code (id integer NOT NULL,batch_id integer, data_matrix_code TEXT,barcode TEXT );
+
+CREATE UNIQUE INDEX preprinted_code ON po_preprinted_code USING btree (id, batch_id, purchase_order_id, data_matrix_code, barcode);
+
+
+insert into po_preprinted_code values(1, 214952, '345343452332', 'CH001ECO0BNI1707201912012100065484');
+
+insert into po_preprinted_code values(2, 492241, '345343442341', 'CH001ECO0BNI1707201912012100065484');
+

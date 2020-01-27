@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ToolbarHeight">56dp</dimen>
+    <dimen name="ListText">26sp</dimen>
+    <dimen name="ButtonText">20sp</dimen>
+    <dimen name="HeadingText">16sp</dimen>
+    <dimen name="PaddingRegular">8dp</dimen>
+    <dimen name="MarginRegular">8dp</dimen>
+    <dimen name="MarginFull">12dp</dimen>
+    <dimen name="marginHalf">4dp</dimen>
+</resources>

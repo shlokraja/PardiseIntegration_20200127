@@ -1,0 +1,112 @@
+{{#yield-body}}
+<div class="row">
+    <aside class="large-3 columns">
+        <h5>Order Details Summary</h5>
+    </aside>
+    <div id="po_editor_div" class="large-3 columns" role="content">
+        From Date
+        <input id="fromdate" type="text" class="datetimepicker" />
+
+    </div>
+    <div id="po_editor_div" class="large-3 columns" role="content">
+        To Date
+        <input id="todate" type="text" class="datetimepicker" />
+
+    </div>
+    <div id="submit_div" class="large-3 columns" role="content">
+
+        <button id="get_reports" class="button small success btn-customised">Submit</button>
+    </div>
+    <div class="row">
+        <div class="col" style="width:885px;">
+            <div id="output_div" class="panel" style="overflow:auto">
+                <table id="report_output">
+                    <thead id="reporter_header">
+                        <th>Date</th>
+                        <th>Received</th>
+                        <th>Dispensed</th>
+                        <th>Pending</th>
+                    </thead>
+                    <tbody id="tbodyid"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{{/yield-body}}
+
+{{#yield-styles}}
+.remove_item {
+height: 20px;
+cursor: pointer;
+}
+
+.label_marker {
+display: inline-block;
+font-weight: bold;
+}
+#submit_div {
+margin-top: 20px;
+}
+
+#err_msg {
+color: red;
+}
+
+.qty {
+width:60px !important;
+}
+
+{{/yield-styles}}
+
+{{#yield-scripts}}
+
+$("#po_editor_div .datetimepicker").datetimepicker({
+    timepicker:false,
+    format:'Y-m-d',
+});
+
+
+document.getElementById("reporter_header").hidden = true;
+
+
+$("#get_reports").click(function() {
+var from_date = $("#po_editor_div #fromdate").val();
+var to_date = $("#po_editor_div #todate").val();
+   
+        $.get('/paradise_report/get_orderdetail_summary/'+from_date+'/'+to_date)
+        .done(function(data) {
+            console.log(data)
+            var error = data.name;
+            debugger;
+            if(!error){
+
+            
+            document.getElementById("reporter_header").hidden = false;
+            // Clearing off previous values
+            $("#report_output tbody").empty();
+            // Add the rows in the table
+            console.log(data)
+            var total_received = "";
+            var total_dispensed = "";
+            var total_pending = "";
+
+
+            for (var i = 0; i < data.length; i++) {
+                  var itemtemp = data[i];
+                 total_received = total_received + itemtemp.order_received;
+                 total_dispensed = total_dispensed + itemtemp.order_received;
+                 total_pending = total_pending + itemtemp.order_received;
+                  var itemRow = "<tr><td>" + itemtemp.orderdatetime + " </td><td>" + itemtemp.order_received + "</td><td>" + itemtemp.dispensed + "</td><td>" + itemtemp.pending + "</td></tr>";
+                  var tableRef = document.getElementById('report_output').getElementsByTagName('tbody')[0];
+                  var newRow = tableRef.insertRow(tableRef.rows.length);
+                  newRow.innerHTML = itemRow;
+                }
+            } else {
+                $("#tbodyid").empty();
+            }
+        });
+
+})
+
+{{/yield-scripts}}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>
+
+
+    <!--<resources>--><!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">--><!--&lt;!&ndash; Customize your theme here. &ndash;&gt;--><!--<item name="colorPrimary">@color/colorPrimary</item>--><!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>--><!--<item name="colorAccent">@color/colorAccent</item>--><!--<item name="android:windowBackground">@null</item>--><!--</style>-->
+
+    <!--<style name="AppTheme.CenterAnimation">--><!--<item name="android:windowBackground">@drawable/ll_face_logo</item>--><!--</style>--><!--</resources>-->

@@ -1,0 +1,26 @@
+﻿export NODE_ENV=development
+export DEBUG=outlet_app:server
+export PORT=8000
+export WEBSOCKET_PORT=8000
+export DEBUG_FD=1
+#export FIREBASE_QUEUE=https://foodbox-queuedemo.firebaseio.com/queue
+#export FIREBASE_QUEUE=https://pb-dev-payment.firebaseio.com/queue
+export FIREBASE_QUEUE=https://pb-dev-payment.firebaseio.com/queue
+
+export HQ_URL=http://1.23.70.170:8011
+#export HQ_URL=http://192.168.1.114:8011
+export OUTLET_HOST=http://192.168.1.114:
+export PRINTER_URL=http://localhost:631
+export FIREBASE_CONN=https://PB-Dev-Outlet.firebaseio.com
+export OUTLET_ID=14
+export OUTLET_CODE=CEL
+export SOURCE_FOLDER=/home/indra/images
+export MENU_DISPLAY_FOLDER=/home/indra
+export MENU_DISPLAY_IPS=192.168.1.48,192.168.1.114,192.168.1.112,192.168.1.166
+export SMS_USERNAME=atchayam
+export SMS_PASSWORD=123456
+export SMS_URL=http://whitelist.smsapi.org/SendSMS.aspx
+export SERVER_PORT=9099
+export LISTEN_PORT=9097
+export EXPIRY_TIME_INTERVAL=5
+export TEST_MODE_TIME=10
