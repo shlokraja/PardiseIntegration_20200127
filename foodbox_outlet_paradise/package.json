@@ -37,7 +37,7 @@
     "mongodb": "^2.2.31",
     "mongoose": "^4.11.9",
     "mongoose-long": "^0.1.1",
-    "morgan": "~1.5.3",
+    "morgan": "~1.9.1",
     "node-fetch": "^2.6.0",
     "node-ka-patch": "0.0.3",
     "node-service-worker": "^2.1.2",
