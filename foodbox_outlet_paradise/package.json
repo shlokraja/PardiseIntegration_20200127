@@ -34,7 +34,7 @@
     "html-pdf": "^2.2.0",
     "internet-available": "^1.0.0",
     "lockredis": "^1.0.0",
-    "mongodb": "^2.2.31",
+    "mongodb": "^3.1.13",
     "mongoose": "^4.11.9",
     "mongoose-long": "^0.1.1",
     "morgan": "~1.5.3",
