@@ -41,7 +41,7 @@
     "node-fetch": "^2.6.0",
     "node-ka-patch": "0.0.3",
     "node-service-worker": "^2.1.2",
-    "nodemailer": "^6.4.2",
+    "nodemailer": "^6.4.16",
     "pdf-to-printer": "^1.1.1",
     "pg": "^4.3.0",
     "q": "^1.4.1",
