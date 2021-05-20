@@ -31,7 +31,7 @@
     "firebase": "^2.2.5",
     "firebase-queue": "^1.2.1",
     "hogan-express": "^0.5.2",
-    "html-pdf": "^2.2.0",
+    "html-pdf": "^3.0.1",
     "internet-available": "^1.0.0",
     "lockredis": "^1.0.0",
     "mongodb": "^2.2.31",
